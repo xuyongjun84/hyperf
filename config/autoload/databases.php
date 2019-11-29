@@ -14,11 +14,11 @@ return [
     'default' => [
         'driver' => env('DB_DRIVER', 'mysql'),
         'host' => env('DB_HOST', 'localhost'),
-        'database' => env('DB_DATABASE', 'hyperf'),
+        'database' => env('DB_DATABASE', 'zjzy_fenrun_wx'),
         'username' => env('DB_USERNAME', 'root'),
-        'password' => env('DB_PASSWORD', ''),
-        'charset' => env('DB_CHARSET', 'utf8'),
-        'collation' => env('DB_COLLATION', 'utf8_unicode_ci'),
+        'password' => env('DB_PASSWORD', 'xyj@123456'),
+        'charset' => env('DB_CHARSET', 'utf8mb4'),
+        'collation' => env('DB_COLLATION', 'utf8mb4_general_ci'),
         'prefix' => env('DB_PREFIX', ''),
         'pool' => [
             'min_connections' => 1,
