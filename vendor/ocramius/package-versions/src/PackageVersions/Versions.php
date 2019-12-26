@@ -53,6 +53,7 @@ final class Versions
   'hyperf/process' => 'v1.1.7@aaf127673c1ec29021c8d047781e3bee4c4ca1eb',
   'hyperf/redis' => 'v1.1.7@ef71660a223e6b3f1bb7627cbb13889f2c9bb69c',
   'hyperf/server' => 'v1.1.7@de8c03ac40d616db2fb4aa515499d60989bd3d6c',
+  'hyperf/session' => 'v1.1.10@e5f95d4d11518e09e7ee43c3d347c7ac6e4e47a8',
   'hyperf/tracer' => 'v1.1.7@845453e0d6783e68726f99744703330c99c4c725',
   'hyperf/utils' => 'v1.1.6@b2d81346bfa640571bb9c92181d86a7fb37daf5f',
   'jcchavezs/zipkin-opentracing' => '0.1.3@bee35b51355882df0384d55dd627b60f62f99abd',
@@ -151,7 +152,7 @@ final class Versions
   'symfony/stopwatch' => 'v5.0.0@d410282956706e0b08681a5527447a8e6b6f421e',
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webmozart/assert' => '1.6.0@573381c0a64f155a0d9a23f4b0c797194805b925',
-  'hyperf/hyperf-skeleton' => 'v1.1.1@',
+  'hyperf/hyperf-skeleton' => 'dev-master@ab2ebf2f9454bca24473aee4891d361716a2fb51',
 );
 
     private function __construct()

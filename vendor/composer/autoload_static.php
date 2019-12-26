@@ -105,15 +105,12 @@ class ComposerStaticInit75eb61f22bb64ea9ef5d481508e1412d
         array (
             'Jean85\\' => 7,
         ),
-        'I' => 
-        array (
-            'Installer\\' => 10,
-        ),
         'H' => 
         array (
             'Hyperf\\Utils\\' => 13,
             'Hyperf\\Tracer\\' => 14,
             'Hyperf\\Testing\\' => 15,
+            'Hyperf\\Session\\' => 15,
             'Hyperf\\Server\\' => 14,
             'Hyperf\\Redis\\' => 13,
             'Hyperf\\Process\\' => 15,
@@ -365,10 +362,6 @@ class ComposerStaticInit75eb61f22bb64ea9ef5d481508e1412d
         array (
             0 => __DIR__ . '/..' . '/jean85/pretty-package-versions/src',
         ),
-        'Installer\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/installer',
-        ),
         'Hyperf\\Utils\\' => 
         array (
             0 => __DIR__ . '/..' . '/hyperf/utils/src',
@@ -380,6 +373,10 @@ class ComposerStaticInit75eb61f22bb64ea9ef5d481508e1412d
         'Hyperf\\Testing\\' => 
         array (
             0 => __DIR__ . '/..' . '/hyperf/testing/src',
+        ),
+        'Hyperf\\Session\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/session/src',
         ),
         'Hyperf\\Server\\' => 
         array (

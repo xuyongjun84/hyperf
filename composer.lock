@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb40b88a49744f8628e27c8440b30843",
+    "content-hash": "efeff496bf454fa5d539cff9e854e01a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2240,6 +2240,60 @@
                 "swoole"
             ],
             "time": "2019-11-21T02:07:47+00:00"
+        },
+        {
+            "name": "hyperf/session",
+            "version": "v1.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/session.git",
+                "reference": "e5f95d4d11518e09e7ee43c3d347c7ac6e4e47a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/session/zipball/e5f95d4d11518e09e7ee43c3d347c7ac6e4e47a8",
+                "reference": "e5f95d4d11518e09e7ee43c3d347c7ac6e4e47a8",
+                "shasum": ""
+            },
+            "require": {
+                "hyperf/utils": "^1.1",
+                "php": ">=7.2",
+                "psr/http-server-middleware": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.9",
+                "malukenho/docheader": "^0.1.6",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "suggest": {
+                "hyperf/config": "Required to load session config.",
+                "psr/container": "Required to use SessionFactory."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                },
+                "hyperf": {
+                    "config": "Hyperf\\Session\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hyperf\\Session\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A session library",
+            "keywords": [
+                "php",
+                "session"
+            ],
+            "time": "2019-12-11T16:27:17+00:00"
         },
         {
             "name": "hyperf/tracer",
